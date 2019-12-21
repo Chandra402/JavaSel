@@ -1,1 +1,1 @@
-[DEBUG] 2019-12-21 13:12:49.423 [main] GmailSmoke - Pass    UserLoggedintoAccount              ===>https://twitter.com/home
+[DEBUG] 2019-12-21 14:02:42.356 [main] GmailSmoke - Pass    UserLoggedintoAccount              ===>https://twitter.com/home

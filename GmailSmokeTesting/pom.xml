@@ -71,7 +71,28 @@
  <fork>true</fork>
  <executable>C:\Program Files\Java\jdk1.8.0_211\bin\javac.exe</executable>
  </configuration>
- </plugin> 
+ </plugin>
+ 
+ 
+ <plugin>
+   <groupId>org.codehaus.modello</groupId>
+   <artifactId>modello-maven-plugin</artifactId>
+   <version>1.8.1</version>
+   <executions>
+     <execution>
+       <configuration>
+         <models>
+           <model>src/main/mdo/maven.mdo</model>
+         </models>
+         <version>4.0.0</version>
+       </configuration>
+       <goals>
+         <goal>package</goal>
+       </goals>
+     </execution>
+   </executions>
+ </plugin>
+ 
  
  <plugin>
  <groupId>org.apache.maven.plugins</groupId>
