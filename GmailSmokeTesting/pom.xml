@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
    <properties>
-  <suiteXmlFile>./testng.xml</suiteXmlFile>
+  <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
   </properties>
   
   <dependencies>
