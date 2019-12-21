@@ -1,5 +1,5 @@
 @echo on
-SET PROJECT_PATH=C:\Users\AjayKumar\Selenium Scripts\SeleniumDemo5\GmailSmokeTesting
+SET PROJECT_PATH=./GmailSmokeTesting/
 
 cd %PROJECT_PATH%
 
