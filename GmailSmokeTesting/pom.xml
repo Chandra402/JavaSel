@@ -87,7 +87,9 @@
          <version>4.0.0</version>
        </configuration>
        <goals>
-         <goal>clean test</goal>
+       <goal>compile</goal>
+         <goal>package</goal>
+         <goal>test</goal>
        </goals>
      </execution>
    </executions>
