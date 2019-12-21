@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45468" started-at="2019-12-21T06:10:26Z" finished-at="2019-12-21T06:11:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45468" started-at="2019-12-21T06:10:26Z" finished-at="2019-12-21T06:11:12Z">
+      <class name="com.tesco.gmail.smoke.GmailSmoke">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="setUP" is-config="true" duration-ms="8409" started-at="2019-12-21T06:10:26Z" finished-at="2019-12-21T06:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="baseURL()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="baseURL" duration-ms="10760" started-at="2019-12-21T06:10:35Z" finished-at="2019-12-21T06:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURL -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="tearDown" is-config="true" duration-ms="24" started-at="2019-12-21T06:10:46Z" finished-at="2019-12-21T06:10:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=baseURL status=SUCCESS method=GmailSmoke.baseURL()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="loginintoAccount()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="loginintoAccount" duration-ms="11652" started-at="2019-12-21T06:10:46Z" depends-on-methods="com.tesco.gmail.smoke.GmailSmoke.baseURL" finished-at="2019-12-21T06:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginintoAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-12-21T06:10:57Z" finished-at="2019-12-21T06:10:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginintoAccount status=SUCCESS method=GmailSmoke.loginintoAccount()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyLoginURL()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="verifyLoginURL" duration-ms="2323" started-at="2019-12-21T06:10:57Z" depends-on-methods="com.tesco.gmail.smoke.GmailSmoke.loginintoAccount" finished-at="2019-12-21T06:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginURL -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-21T06:11:00Z" finished-at="2019-12-21T06:11:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginURL status=SUCCESS method=GmailSmoke.verifyLoginURL()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="logOut" duration-ms="7845" started-at="2019-12-21T06:11:00Z" depends-on-methods="com.tesco.gmail.smoke.GmailSmoke.verifyLoginURL" finished-at="2019-12-21T06:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-21T06:11:07Z" finished-at="2019-12-21T06:11:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOut status=SUCCESS method=GmailSmoke.logOut()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@52b1beb6]" name="closeBrowser" is-config="true" duration-ms="4143" started-at="2019-12-21T06:11:07Z" finished-at="2019-12-21T06:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tesco.gmail.smoke.GmailSmoke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
